@@ -13,16 +13,16 @@ The next stage of this project is to analyze different campaigns fared with thei
 To better analyze through time, it was needed to filter the dates by year using =YEAR() vs Date Created, see Fig1.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/YEARvsDate_Created.png"/>
-<p/>
+
 ###### Fig 1: Use of YEAR() formula
-<p/>
+
 
 By counting the number of outcomes, "Successful," "Failed," and "Canceled" for the theatre category, we can analyze the outcomes vs launch date by a month.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/OutcomevsLaunch_build.png"/>
-</p>
+
 ###### Fig 2: Use of Pivot Table
-</>
+
 
 ### Outcome Based on Goals
 
@@ -55,9 +55,9 @@ As it can be appreciated in the chart "Theater Outcomes vs Launch Date," May has
 We do not recommend launching a play during the month of January since it has an increase in cancellations. The Figure 3 shows the information explained.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/Theater_Outcomes_vs_Launch.png"/>
-</p>
+
 ###### Fig 3: Theater Outcomes vs Launch Date
-</p>
+
 
 ### Analysis of Outcomes Based on Goals
 The projects had been grouped based on their goal amount and classified by the number of outcomes "Successful," "Failed," "Canceled."
@@ -67,9 +67,9 @@ Having a goal between 20000 and 34999 increases the probability of failure.
 The Figure 4 shows the results of the analysis.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/Outcomes_vs_Goals.png"/>
-</p>
+
 ###### Fig 4: Outcomes Based on Goal
-</p>
+
 
 ### Challenges and Difficulties Encountered
 

@@ -8,9 +8,11 @@ Therefore the outcome based on goals will determine the range for the highest pr
 The next stage of this project is to analyze different campaigns fared with their launch date and funding goals. They provide better visibility in terms of when is better to perform the campaign and the best goal. 
 
 ## Analysis and Challenges
-To better analyze through time, it was needed to filter the dates by year using =YEAR() vs Date Created.
+To better analyze through time, it was needed to filter the dates by year using =YEAR() vs Date Created, see Fig1.
 
-<image src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/YEARvsDate_Created.png" width="200" height"200">
+<img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/YEARvsDate_Created.png"/>
+**Fig 1: Use of YEAR() formula**
+
 By counting the number of outcomes, "Successful," "Failed," and "Canceled" for the theatre category, we can analyze the outcomes vs launch date by a month.
 Dividing the goal by ranges and counting the number of goals reached by "Successful," "Failed," and "Canceled," we can analyze the outcomes based on goals. The formula COUNTIFS() was used to organize this information; SUM() was used for the total of projects on every goal range.
 

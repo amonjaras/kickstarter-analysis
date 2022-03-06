@@ -7,7 +7,8 @@ This project allowed Louise's play Fever to be successful. Since she is interest
 The next stage of this project is to provide the analysis between diferrent campaings fared with their lauch date and dunding goals. This will provide a better visibility in terms of when is better to perform the campaing and what is the best goal. 
 
 ## Analysis and Challenges
-To have a better analysis through time, it was needed to filter the dates by year using =YEAR() vs Date Created
+To have a better analysis through time, it was needed to filter the dates by year using =YEAR() vs Date Created.
+The analysis for Theatre Outcomes by Launch Date was 
 
 ### Analysis of Outcomes Based on Launch Date
 

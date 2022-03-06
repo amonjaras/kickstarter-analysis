@@ -5,30 +5,49 @@ This project allowed Louise's play Fever to be successful. Since she is interest
 Therefore the outcome based on goals will determine the range for the highest probability of success.
 
 ### Purpose
-The next stage of this project is to analyze different campaigns fared with their launch date and funding goals. They provide better visibility in terms of when is better to perform the campaign and the best goal. 
+The next stage of this project is to analyze different campaigns fared with their launch date and funding goals. They provide better visibility in terms of when is better to perform the campaign and the best goal.
 
 ## Analysis and Challenges
-###### Outcome vs Launch Date
+### Outcome vs Launch Date
 
 To better analyze through time, it was needed to filter the dates by year using =YEAR() vs Date Created, see Fig1.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/YEARvsDate_Created.png"/>
 <p/>
-Fig 1: Use of YEAR() formula
+###### Fig 1: Use of YEAR() formula
 <p/>
 
 By counting the number of outcomes, "Successful," "Failed," and "Canceled" for the theatre category, we can analyze the outcomes vs launch date by a month.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/OutcomevsLaunch_build.png"/>
 </p>
-Fig 2: Use of Pivot Table
+###### Fig 2: Use of Pivot Table
 </>
 
-###### Outcome Based on Goals
+### Outcome Based on Goals
 
 Dividing the goal by ranges and counting the number of goals reached by "Successful," "Failed," and "Canceled," we can analyze the outcomes based on goals. The formula COUNTIFS() was used to organize this information; SUM() was used for the total of projects on every goal range.
 
+###### COUTIFS() formula
 
+> For column B4
+```
+=COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">5000",Kickstarter!$D:$D,"<=9999",Kickstarter!$R:$R,"plays")
+```
+
+###### Total of Projects Calculation
+
+> For column E4
+```
+=SUM(B4:D4)
+```
+
+###### Percentage Calculation
+
+> For column F4
+```
+=B4/$E4
+```
 
 ### Analysis of Outcomes Based on Launch Date
 For a play to be successful, it needs to be launched between the month's May and June.
@@ -37,7 +56,7 @@ We do not recommend launching a play during the month of January since it has an
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/Theater_Outcomes_vs_Launch.png"/>
 </p>
-Fig 3: Theater Outcomes vs Launch Date
+###### Fig 3: Theater Outcomes vs Launch Date
 </p>
 
 ### Analysis of Outcomes Based on Goals
@@ -49,7 +68,7 @@ The Figure 4 shows the results of the analysis.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/Outcomes_vs_Goals.png"/>
 </p>
-Fig 4: Outcomes Based on Goal
+###### Fig 4: Outcomes Based on Goal
 </p>
 
 ### Challenges and Difficulties Encountered

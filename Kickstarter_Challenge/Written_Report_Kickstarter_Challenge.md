@@ -11,6 +11,7 @@ The next stage of this project is to analyze different campaigns fared with thei
 To better analyze through time, it was needed to filter the dates by year using =YEAR() vs Date Created, see Fig1.
 
 <img src="https://github.com/amonjaras/kickstarter-analysis/blob/main/Kickstarter_Challenge/Resources/YEARvsDate_Created.png"/>
+<p/>
 Fig 1: Use of YEAR() formula
 <p/>
 

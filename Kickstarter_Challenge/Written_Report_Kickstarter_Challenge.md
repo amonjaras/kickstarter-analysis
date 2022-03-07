@@ -80,15 +80,26 @@ The Figure 4 shows the results of the analysis.
 
 ###### Data Analysis Difficulties
 
-
+1. Working on the report using "Atom" interface for Mac and "Commit" all changes to GitHub repository
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+1. Best time to launch the plays is on May and June, since the number of successful outcomes is greater.
+
+2. Worst time to launch the plays is September to December, since the number of failed outcomes increases. January is also not recommendable due to highest number of cancellations.
+
 - What can you conclude about the Outcomes based on Goals?
+
+The probability of success is higher when the goal is less than 1000. It is not ideal to launch plays with goals between 35000 and 44999, even though the probability of success seems higher, the total of plays is minimum and probability of failure is around 50%.
 
 - What are some limitations of this dataset?
 
+1. For the Outcomes based on Goals, the analysis will be more accurate if the goal was set up with same currency.
+
+2. For Outcomes by Launch Date, the analysis could be complemented by comparing between countries.
+
 - What are some other possible tables and/or graphs that we could create?
-insert a line chart to understand the trend of theatre campaign
+
+Insert a line chart to understand the trend of theatre campaign throughout the years

@@ -72,6 +72,15 @@ The Figure 4 shows the results of the analysis.
 
 
 ### Challenges and Difficulties Encountered
+###### Data Analysis Challenges
+
+1. While analyzing the data, it is not clear if the plays will be for an specific country. Information provided is the count within 19 different countries.
+
+2. It is not clear why the analysis is done with mixed currencies, it is recommendable to generate one more input with the goal in same currency.
+
+###### Data Analysis Difficulties
+
+
 
 ## Results
 
